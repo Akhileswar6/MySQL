@@ -6,10 +6,13 @@ INSERT INTO students(name, email, age, city) VALUES
 ("Bob Smith", "bobsmith@gmail.com", 24, "Los Angeles"),
 ("Charlie Brown", "brown@gmail.com", 21, "Chicago");
 
-INSERT INTO students(name, email, age, city) VALUES
-("Santhosh","santhosh@gmail.com",16,"Vizag"),
-("Vinay","vinay@gmail.com",19,"Kadapa"),
-("Ramu","ram@gmail.com",21,"Tirupati");
+INSERT INTO students(full_name, email, age, city) VALUES
+("Akash","akash@gmail.com",23,"Delhi"),
+("Ravi","ravi@gmail.com",22,"Mumbai"),
+("Sita","sita@gmail.com",20,"Bangalore"),
+("Anita","anita@gmail.com",21,"Vizag"),
+("Rahul","rahul@gmail.com",24,"Kadapa"),
+("Riya","riya@gmail.com",22,"Hyderabad");
 
 
 
