@@ -26,3 +26,35 @@ CREATE TABLE sales(
 DESC sales;
 
 SHOW TABLES;
+
+
+
+-- Creating employees table
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    dept_id INT
+);
+
+-- Creating departments table
+CREATE TABLE department (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(50)
+);
+
+
+
+
+CREATE TABLE final_students (
+    stu_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    branch VARCHAR(50)
+);
+
+
+CREATE TABLE alumini (
+    name VARCHAR(50),
+    company VARCHAR(50)
+);
+
+
