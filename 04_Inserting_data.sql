@@ -37,3 +37,30 @@ INSERT INTO sales VALUES
 (7, "yogurt",6, 180.00);
 
 SELECT * FROM sales;
+
+
+
+-- Inserting records into the employees table
+INSERT INTO employees (emp_id, emp_name, dept_id) VALUES
+(1, "John Doe", 101),
+(2, "Jane Smith", 102),
+(3, "Mike Johnson", 101),
+(4, "Emily Davis", 103);
+
+INSERT INTO employees (emp_id, emp_name, dept_id) VALUES
+(5,"Akhil",105);
+
+-- Inserting records into the department table
+INSERT INTO department (dept_id, dept_name) VALUES
+(101, "Sales"),
+(102, "Marketing"),
+(103, "HR");
+
+INSERT INTO department (dept_id, dept_name) VALUES
+(104,"IT");
+
+
+
+INSERT INTO final_students VALUES (12,"Akhil","Cyber"),(13,"Vishal","Computer Science"),(19,"Joshna","AIML"),(10,"Vivek","EEE");
+
+INSERT INTO alumini VALUES ("Shashank","Google"),("Akhil","Cisco"),("Asha","Sachmans"),("Vivek","IBM"),("Joshna","Netflix");
